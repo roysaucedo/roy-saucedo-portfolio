@@ -1,0 +1,105 @@
+/* Type */
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.location-text {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-text {
+    font-size: 24px;
+    font-weight: 600;
+
+}
+/* Images */
+
+.headshot-img {
+    width: 35vw;
+    max-width: 800px;
+    min-width: 400px;
+    border-radius: 20px;
+    border: 3px solid #000;
+}
+
+.logo {
+    width: 50px;
+}
+
+
+
+/* Hero */
+.page-wrapper {
+    padding: 50px;
+    width: 80vw;
+    margin: auto;
+}
+
+
+/* Hero */
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding-top: 50px;
+}
+
+.hero-text {
+    margin-right: 50px;
+}
+
+.name-text-div {
+    margin-bottom: 50px;
+}
+
+.nav-text-div {
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 20vh;
+    /* background-color: blue; */
+}
+
+
+/* Footer */
+
+footer {
+    background-color: rgb(163, 163, 163)
+}
+
+.footer-ctr {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100px;
+    width: 80vw;
+    margin: auto;
+}
