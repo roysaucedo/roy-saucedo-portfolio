@@ -38,7 +38,7 @@ a {
 /* Images */
 
 .headshot-img {
-    width: 35vw;
+    width: 500px;
     max-width: 800px;
     min-width: 400px;
     border-radius: 20px;
@@ -52,6 +52,12 @@ a {
 .nav-text {
     font-size: 24px;
     font-weight: 600;
+}
+
+.nav-text:hover {
+    font-size: 36px;
+    font-weight: 600;
+    color: blue;
 }
 
 .nav {
@@ -70,11 +76,10 @@ a {
 
 
 
-
-/* Hero */
 .page-wrapper {
     padding: 50px;
     width: 80vw;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -116,6 +121,6 @@ footer {
     align-items: center;
     justify-content: space-evenly;
     height: 100px;
-    width: 80vw;
+    width: 1200px;
     margin: auto;
 }
