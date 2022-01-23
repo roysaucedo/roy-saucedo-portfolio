@@ -78,7 +78,7 @@ a {
 
 .page-wrapper {
     padding: 50px;
-    width: 80vw;
+    width: 90vw;
     max-width: 1200px;
     margin: auto;
 }
@@ -122,9 +122,8 @@ footer {
 .footer-ctr {
     display: flex;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: center;
     height: 100px;
-    width: 1200px;
     margin: auto;
 }
 
