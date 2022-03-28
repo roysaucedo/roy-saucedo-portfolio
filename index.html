@@ -9,6 +9,7 @@
     <meta property="og:image:width" content="1200" />
 
     <meta property="og:image:height" content="630" />
+    <link rel="stylesheet" href="styles.css">
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
@@ -18,106 +19,113 @@
     <link rel="icon" type="image/x-icon" href="/img/RoyLogoIcon.png">
   </head>
   <body class="bg-slate-100">
+    <!-- STICKY CTA -->
+    <div class="absolute right-20 top-5">
+      <button class="text-white rounded-lg p-3 bg-slate-800	 w-40 max-w-l mt-5 hover:bg-slate-400 ease-in duration-200"> View My Work</button>
+    </div>
 
 
-    <header class="fixed w-full px-10 drop-shadow-lg bg-white p-4 text-center">
-      <div class="flex justify-between items-center max-w-6xl m-auto">
-        <img class="w-10" src="/img/Sauce-Chile.svg" alt="" />
-        <ul class="hidden md:flex justify-center lg:flex justify-center">
-          <li class="font-medium m-5 hover:text-orange-500">
-            <a href="">Work</a>
-          </li>
-          <li class="font-medium m-5 hover:text-orange-500">
-            <a href="">About</a>
-          </li>
-          <li class="font-medium m-5 hover:text-orange-500">
-            <a href="">Contact</a>
-          </li>
-          <li class="font-medium m-5 hover:text-orange-500">
-            <a href="">Blog</a>
-          </li>
-        </ul>
-      </div>
-    </header>
 
 
     <!-- HERO -->
-    <section class="py-10 pt-40">
-      <h1 class="text-3xl md:text-4xl lg:text-5xl text-center font-bold">Hi! I'm Roy Saucedo.</h1>
-      <h2 class="text-xl text-center p-2 md:text-2xl lg:text-2xl">
-        I'm a Frontend Developer based in Orange County, CA.
+    <section class="pb-10 pt-24 img-bg">
+      <h1 class="text-3xl md:text-4xl lg:text-5xl text-center font-bold mb-5">Hi! I'm Roy Saucedo.</h1>
+      <h2 class="text-xl text-center p-2 md:text-2xl lg:text-2xl mb-5">
+        I'm a Frontend Developer who specializes in building e-commerce experiences.
       </h2>
-      <a class="w-40" href="#portfolio"
-        ><div
-          class="rounded-full p-2 bg-orange-500 w-40 max-w-l m-auto mt-5 hover:bg-zinc-800 text-white ease-in duration-100"
-        >
-          <p class="text-center">View My Work</p>
-        </div></a
-      >
-      <img class="p-10 md:hidden lg:hidden" src="img/iphone.svg" alt="" />
-      <img
-        class="hidden p-10 m-auto md:block lg:block"
-        src="img/mac.svg"
-        alt=""
-      />
+
+      <div class="flex items-center justify-evenly w-48 m-auto bg-slate-200 rounded-full px-3 p-2 mb-5">
+        <img class="w-4" src="/img/location-dot-solid.svg" alt="">
+
+        <p class="text-sm text-center">Orange County, CA</p>
+      </div>
+      <div class="flex justify-center">
+        <button class="text-white rounded-lg p-3 bg-slate-800 w-60 max-w-l mt-5 hover:bg-slate-400 ease-in duration-200"> View My Work</button>
+      </div>
+        
+
+      
+      <div class="relative">
+        <div class="pt-24 md:w-full lg:w-3/5 m-auto">
+          <!-- <img class="p-10 md:hidden lg:hidden" src="img/iphone.svg" alt="" /> -->
+          <img class=" p-10 m-auto md:block lg:block" src="img/mac 1-shorter.svg" alt="" />
+        </div>
+        
+
+        <div class="md:w-2/3 lg:w-2/5 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+          <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/692890184?h=c367638790&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Welcome!"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+          <!-- <iframe src="https://player.vimeo.com/video/692890184?h=c367638790&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="782" height="440" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Welcome!"></iframe> -->
+        </div>
+      </div>
+      
     </section>
 
 
 
-    <section class="p-4">
+    <section class="p-4 bg-slate-200">
+      <!-- MY SKILS -->
+      <div id="portfolio" class="py-10">
+        <h1 class="text-center text-5xl font-semibold pb-10">My Skills</h1>
+
+
+        <!-- CATEGORIES CHIPS -->
+        <div class="flex px-2 justify-center">
+            <div class="mx-1 bg-slate-100 w-auto rounded-full px-3 p-2">
+              <p class="text-sm text-center">React</p>
+            </div>
+            <div class="mx-1 bg-slate-100 w-auto rounded-full px-3 p-2">
+              <p class="text-sm text-center">Shopify Liquid</p>
+            </div>
+            <div class="mx-1 bg-slate-100 w-auto rounded-full px-3 p-2">
+              <p class="text-sm text-center">HTML</p>
+            </div>
+            <div class="mx-1 bg-slate-100 w-auto rounded-full px-3 p-2">
+              <p class="text-sm text-center">CSS</p>
+            </div>
+            <div class="mx-1 bg-slate-100 w-auto rounded-full px-3 p-2">
+              <p class="text-sm text-center">Javascript</p>
+            </div>
+        </div>
+      </div>
+      <!-- END TOPICS -->
+    </section>
+    <section class="p-4 img-bg">
       <!-- PORTFOLIO -->
       <div id="portfolio" class="py-10">
         <h1 class="text-center text-5xl font-semibold pb-10">My Portfolio</h1>
 
 
-        <!-- CATEGORIES CHIPS -->
-        <div class="flex px-2 justify-center">
-          <a href="">
-            <div class="mx-1 bg-slate-200 w-auto rounded-full px-3 p-2">
-              <p class="text-sm text-center">React</p>
-            </div>
-          </a>
-          <a href="">
-            <div class="mx-1 bg-slate-200 w-auto rounded-full px-3 p-2">
-              <p class="text-sm text-center">Shopify</p>
-            </div>
-          </a>
-          <a href="">
-            <div class="mx-1 bg-slate-200 w-auto rounded-full px-3 p-2">
-              <p class="text-sm text-center">HTML</p>
-            </div>
-          </a>
-          <a href="">
-            <div class="mx-1 bg-slate-200 w-auto rounded-full px-3 p-2">
-              <p class="text-sm text-center">CSS</p>
-            </div>
-          </a>
-          <a href="">
-            <div class="mx-1 bg-slate-200 w-auto rounded-full px-3 p-2">
-              <p class="text-sm text-center">Javascript</p>
-            </div>
-          </a>
-        </div>
-      </div>
-      <!-- END TOPICS -->
     </section>
     <section></section>
 
 
 
-    <footer class="px-10 py-10 bg-zinc-800 md:flex lg:flex">
+    <footer class="px-10 py-10 bg-zinc-800 md:flex lg:flex bg-gradient-to-r from-slate-600 to-slate-900">
       <!-- section 1 -->
       <div class="max-w-6xl m-auto">
-        <h1 class="text-xl text-white font-semibold">Roy Saucedo</h1>
-        <ul class="flex">
+        <div class="md:flex lg:flex my-20">
+          <div class="w-2/4">
+            <img  src="img/code-img.jpg" alt="">
+          </div>
+
+          <div class="pl-10 pt-20">
+            <h1 class="text-5xl text-white font-semibold text-left mb-5">Let's work together!</h1>
+            <p class="text-white text-l">Let's link up.  Complete my quick form below to schedule a 30 minute consult with me.</p>
+            <button class="text-slate-800 bg-slate-100 rounded-lg p-3  w-60 max-w-l mt-5 hover:bg-slate-400 ease-in duration-200"> View My Work</button>
+          </div>
+        </div>
+
+        <hr>
+
+        <ul class="flex py-10">
           <li class="text-white m-5 hover:text-orange-500">
-            <a href="">Work</a>
+            <a href="">Instagram</a>
           </li>
           <li class="text-white m-5 hover:text-orange-500">
-            <a href="">About</a>
+            <a href="">Twitter</a>
           </li>
           <li class="text-white m-5 hover:text-orange-500">
-            <a href="">Contact</a>
+            <a href="">YouTube</a>
           </li>
           <li class="text-white m-5 hover:text-orange-500">
             <a href="">Blog</a>
